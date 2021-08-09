@@ -2,37 +2,113 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-class{
+  height: 75px;
+  background-color: rgb(85, 19, 12);
+  padding: 20px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.content{
   color: white;
+  margin-left:30px;
+}
+.form-class{
+  padding:20px;
+  margin: 20px;
+  width: 400px;
+  box-shadow: 4px 4px 10px grey;
+}
+.input-class{
+  display: flex;
+  justify-content: space-evenly;
+  padding:20px;
+  /* border: 1px solid rgb(119, 0, 255); */
+  width:70%;
+  margin-left: 175px;
+  box-shadow: 2px 1px 3px rgb(255, 47, 210);
 }
 
-.App-link {
-  color: #61dafb;
+.form-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reg{
+  background-color: rgb(194, 235, 233);
+  box-shadow: 3px 5px 8px 8px lightgrey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.itemitem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+  box-shadow: 3px 8px 5px salmon;
+  padding: 20px;
+  margin: 10px;
+}
+
+.signin{
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 3px 8px 15px salmon;
+}
+.bttn{
+  width: 150px;
+  height: 35px;
+  margin-left: 10px;
+}
+.s-input{
+  width: 300px;
+  height: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.bttn{
+  margin: 30px;
+}
+.cart{
+  display: flex;
+  align-items: center;
+  margin-left:35%;
+  width: 400px;
+  height: 300px;
+  box-shadow: 5px 5px 10px goldenrod;
+}
+.in{
+  margin:100px
+}
+.upper{
+  background-color: lightblue;
+  padding-bottom: 35px;
+  padding-left: 5px;
+  height: 30px;
+  width: 30px;
+  border:2px solid rgb(218, 32, 218);
+  border-radius: 50%;
+}
+
+.error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width:400px;
+  border: 2px solid green;
+}
+
+.outer-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
